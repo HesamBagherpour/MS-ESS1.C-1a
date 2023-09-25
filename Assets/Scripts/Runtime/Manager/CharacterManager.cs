@@ -9,7 +9,7 @@ namespace Runtime.Manager
     {
         public List<Character> characters;
         public CinemachineVirtualCamera cinemachineVirtualCamera;
-        //public LevelManager LevelManager;
+        public LevelManager LevelManager;
 
         public int characterSpeed = 4;
 
@@ -20,7 +20,7 @@ namespace Runtime.Manager
             var player = Instantiate(characters[0], gameObject.transform);
             player.characterSpeed = characterSpeed;
             cinemachineVirtualCamera.Follow = player.transform.GetChild(0);
-            //LevelManager.player = player.transform;
+            LevelManager.player = player.transform;
         }
         
     }
