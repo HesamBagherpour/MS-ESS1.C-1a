@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Emaj.Fossil.Collectable;
-using Emaj.Fossil.Manager;
 using Runtime.Collectable;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Emaj.Fossil.LevelGenerate
+namespace Runtime.LevelGenerate
 {
     public class LevelGenerator : MonoBehaviour
     {

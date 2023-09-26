@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Runtime.InputControllerUtility;
+using Runtime.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -67,17 +68,17 @@ namespace Runtime.CommonCharacterAssets
 
         private void Start()
         {
-            // UIManager.Instance.dialoguePopUp.OnShow += UiEnable;
-            // UIManager.Instance.dialoguePopUp.OnHide += UiDisable;
-            //
-            // UIManager.Instance.pausePopUp.OnShow += UiEnable;
-            // UIManager.Instance.pausePopUp.OnHide += UiDisable;
-            //
-            // UIManager.Instance.cataloguePopUp.OnShow += UiEnable;
-            // UIManager.Instance.cataloguePopUp.OnHide += UiDisable;
-            //
-            // UIManager.Instance.helpPopUp.OnShow += UiEnable;
-            // UIManager.Instance.helpPopUp.OnHide += UiDisable;
+            UIManager.Instance.dialoguePopUp.OnShow += UiEnable;
+            UIManager.Instance.dialoguePopUp.OnHide += UiDisable;
+            
+            UIManager.Instance.pausePopUp.OnShow += UiEnable;
+            UIManager.Instance.pausePopUp.OnHide += UiDisable;
+            
+            UIManager.Instance.cataloguePopUp.OnShow += UiEnable;
+            UIManager.Instance.cataloguePopUp.OnHide += UiDisable;
+            
+            UIManager.Instance.helpPopUp.OnShow += UiEnable;
+            UIManager.Instance.helpPopUp.OnHide += UiDisable;
         
         
             m_animator.SetBool("Grounded", true);

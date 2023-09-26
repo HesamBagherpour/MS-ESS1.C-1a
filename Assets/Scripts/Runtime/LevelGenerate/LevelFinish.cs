@@ -1,3 +1,4 @@
+using Runtime.Manager;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,7 +10,7 @@ namespace Runtime.LevelGenerate
         {
             if (collision.gameObject.CompareTag("Player"))
             {
-                //AudioManager.Instance.PlaySFX(AudioManager.Instance.SFX.teleportSfx);
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.SFX.teleportSfx);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }

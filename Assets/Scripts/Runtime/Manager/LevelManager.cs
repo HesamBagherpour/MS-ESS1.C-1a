@@ -1,5 +1,6 @@
-using Emaj.Fossil.LevelGenerate;
+using Runtime.LevelGenerate;
 using Runtime.Singleton;
+using Runtime.UI;
 using UnityEngine;
 
 namespace Runtime.Manager
@@ -23,10 +24,10 @@ namespace Runtime.Manager
             }
 
             levelNumebr = levelGenerators.Length;
-            //GameManager.Instance.SetLevelData(LevelTime);
+            GameManager.Instance.SetLevelData(LevelTime);
             fossilCounter = 0;
-            //UIManager.Instance.hudPage.SetFossil(fossilCount);
-            //UIManager.Instance.hudPage.GetFossil(fossilCounter);
+            UIManager.Instance.hudPage.SetFossil(fossilCount);
+            UIManager.Instance.hudPage.GetFossil(fossilCounter);
         }
 
         private void LevelFinished()
@@ -50,7 +51,7 @@ namespace Runtime.Manager
         {
             fossilCounter++;
 
-            //UIManager.Instance.hudPage.GetFossil(fossilCounter);
+            UIManager.Instance.hudPage.GetFossil(fossilCounter);
         }
     }
 }

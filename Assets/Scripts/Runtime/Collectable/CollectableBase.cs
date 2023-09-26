@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Emaj.Fossil.Collectable
+namespace Runtime.Collectable
 {
     [Serializable]
     public abstract class CollectableBase : MonoBehaviour

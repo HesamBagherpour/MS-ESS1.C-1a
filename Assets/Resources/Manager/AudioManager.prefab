@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9116729169934794253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4177227762721143932}
+  - component: {fileID: 8732773661057766813}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4177227762721143932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116729169934794253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8732773661057766813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116729169934794253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28df18d5be1a646448ca5da4ee65bc65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MuteMusic: 0
+  MuteSFX: 0
+  Music:
+    menu:
+      Clip: {fileID: 8300000, guid: c087db5702f4b0f4b965c7cb15aab0a6, type: 3}
+      Volume: 0.4
+      Pitch: 1
+      Loop: 1
+    inGameMusic:
+    - Clip: {fileID: 8300000, guid: c087db5702f4b0f4b965c7cb15aab0a6, type: 3}
+      Volume: 0.4
+      Pitch: 1
+      Loop: 1
+  SFX:
+    clickSfx:
+      Clip: {fileID: 8300000, guid: 256bd2343c9dea74a9e3c2bb353013c7, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    helpSfx:
+      Clip: {fileID: 8300000, guid: 256bd2343c9dea74a9e3c2bb353013c7, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    timesUpSfx:
+      Clip: {fileID: 8300000, guid: 1e4145328c0a6cc499232fbe4d872472, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    levelCompleteSfx:
+      Clip: {fileID: 8300000, guid: 26837120770aadd4d80e82daef1283dc, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    foundFossilSfx:
+      Clip: {fileID: 8300000, guid: 60b72554ab5e9cd44a0709bb1958b24b, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    hitRockSfx:
+      Clip: {fileID: 8300000, guid: 2b9d6f39c71341a429e84ebbc1300707, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    typingSfx:
+      Clip: {fileID: 8300000, guid: f153b4d5c239c7f4eaf7487766d17ec6, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    teleportSfx:
+      Clip: {fileID: 8300000, guid: 26837120770aadd4d80e82daef1283dc, type: 3}
+      Volume: 1
+      Pitch: 1
+      Loop: 0

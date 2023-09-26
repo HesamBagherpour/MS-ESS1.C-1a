@@ -1,0 +1,99 @@
+{
+  "game_name": "FOSSIL\nADVENTURE",
+  "hud_hint": "Look for fossils",
+  "pause_title": "PAUSE",
+  "resume_btn_txt": "RESUME",
+  "reset_btn_txt": "RESET",
+  "dialogueSequence": [
+    {
+      "id": "Trilobite",
+      "messages": [
+        {
+          "title": "Trilobite",
+          "message": "This small, hard-shelled creature lived over 500 million years ago and is now extinct. Trilobites are important for geologists because they can be used to date the age of the rocks they are found in",
+          "btnMessage": "Hmm !"
+        },
+        {
+          "title": "Trilobite(II)",
+          "message": "By studying the shape and size of trilobites, scientists can determine the age of the rocks and the environment in which they formed.",
+          "btnMessage": "OK!"
+        }
+      ]
+    },
+    {
+      "id": "Ammonite",
+      "messages": [
+        {
+          "title": "Ammonite",
+          "message": "Ammonites were marine animals that lived over 65 million years ago and are now extinct. They have a unique spiral shape and can be used by geologists to determine the age of rocks.",
+          "btnMessage": "Hmm !"
+        },
+        {
+          "title": "Ammonite(II)",
+          "message": "By examining the size and shape of ammonites, scientists can determine the time period in which the rock was formed and the environment in which it was created.\n",
+          "btnMessage": "OK!"
+        }
+      ]
+    },
+    {
+      "id": "Brachiopod",
+      "messages": [
+        {
+          "title": "Brachiopod",
+          "message": "Brachiopods are marine animals that lived over 500 million years ago and are still found today. They have a hard, two-part shell and are important for geologists because they can be used to date sedimentary rocks.",
+          "btnMessage": "Hmm !"
+        },
+        {
+          "title": "Brachiopod(II)",
+          "message": "By analyzing the types of brachiopods present in a rock layer, scientists can determine the age of the rocks and the environment in which they were formed.\r",
+          "btnMessage": "OK!"
+        }
+      ]
+    },
+    {
+      "id": "Belemnite",
+      "messages": [
+        {
+          "title": "Belemnite",
+          "message": "Belemnites were marine animals that lived over 200 million years ago and are now extinct. They had a long, narrow, cone-shaped shell and are used by geologists to determine the age of rocks.",
+          "btnMessage": "Hmm !"
+        },
+        {
+          "title": "Belemnite(II)",
+          "message": "By studying the size and shape of belemnites, scientists can determine the age of the rocks and the environment in which they formed.",
+          "btnMessage": "OK!"
+        }
+      ]
+    },
+    {
+      "id": "Gastropod",
+      "messages": [
+        {
+          "title": "Gastropod",
+          "message": "Gastropods are marine animals that have a one-piece, spiral-shaped shell. They have been around for over 500 million years and can be used by geologists to determine the age of rocks.",
+          "btnMessage": "Hmm !"
+        },
+        {
+          "title": "Gastropod(II)",
+          "message": " By analyzing the size and shape of gastropods, scientists can determine the age of the rocks and the environment in which they formed.\r",
+          "btnMessage": "OK!"
+        }
+      ]
+    },
+    {
+      "id": "Crinoid",
+      "messages": [
+        {
+          "title": "Crinoid",
+          "message": "Crinoids are marine animals that lived over 500 million years ago and are still found today. They have a hard, jointed skeleton and are important for geologists because they can be used to date sedimentary rocks.",
+          "btnMessage": "Hmm !"
+        },
+        {
+          "title": "Crinoid(II)",
+          "message": "By examining the types of crinoids present in a rock layer, scientists can determine the age of the rocks and the environment in which they were formed.\r",
+          "btnMessage": "OK!"
+        }
+      ]
+    }
+  ]
+}

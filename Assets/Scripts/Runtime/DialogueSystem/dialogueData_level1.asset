@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8788f28f4e4e4db4895250149f552d16, type: 3}
+  m_Name: dialogueData_level1
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - id: Trilobite
+    messages:
+    - title: Trilobite
+      message: 'This little dude with a hard shell lived over 500 million years ago
+        and is extinct now. Geologists love trilobites because they help them figure
+        out how old rocks are! '
+      spr: {fileID: 21300000, guid: 54c10ba9aa0bf284b8ed3541d2a74331, type: 3}
+      btnMessage: Hmm !
+    - title: Trilobite(II)
+      message: ' By looking at the shape and size of trilobites, scientists can guess
+        how old the rocks they were found in are, and what the environment was like
+        back then.'
+      spr: {fileID: 21300000, guid: 54c10ba9aa0bf284b8ed3541d2a74331, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Ammonite
+    messages:
+    - title: Ammonite
+      message: Ammonites are like snails that lived in the ocean over 65 million
+        years ago. When you find an ammonite fossil, it can give you clues about
+        what kind of environment it lived in, like if it was a shallow or deep ocean.
+        And guess what? Geologists can also use ammonite fossils to figure out how
+        old rocks are!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Gastropod
+    messages:
+    - title: Gastropod
+      message: These little guys look like snails, and they lived in the ocean a
+        long time ago. Gastropods are important for geologists because they can help
+        figure out the age of rocks, just like trilobites and ammonites! Scientists
+        can look at the shape and size of gastropod fossils to make an educated guess
+        about how old the rocks they were found in are.
+      spr: {fileID: 21300000, guid: f77d6d8d78adb22409d1f2aee58dfad2, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Brachiopod
+    messages:
+    - title: Brachiopod
+      message: Brachiopods were little creatures that lived in the ocean a long time
+        ago. They have a hard shell that can be found as a fossil today! Brachiopod
+        fossils are important for geologists because they can help determine the
+        age of rocks. By looking at the size and shape of brachiopod fossils, scientists
+        can make a good guess about how old the rocks they were found in are.
+      spr: {fileID: 21300000, guid: 9134045398f9f2747b6c95f5ff4aabce, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Crinoid
+    messages:
+    - title: Crinoid
+      message: Crinoids, also called sea lilies, were little sea creatures that lived
+        a long time ago. Their fossilized remains look like little star-shaped bits
+        of rock. Geologists can use crinoid fossils to figure out how old rocks are.
+        They can also give us clues about what kind of environment they lived in,
+        like if it was shallow or deep water.
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
+      btnMessage: OK!
+    - title: Crinoid(II)
+      message: "By examining the types of crinoids present in a rock layer, scientists
+        can determine the age of the rocks and the environment in which they were
+        formed.\r"
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: 'Stratigraphy '
+    messages:
+    - title: 'Stratigraphy '
+      message: Welcome to the fascinating world of stratigraphy! Scientists use stratigraphy
+        to study rock layers and uncover Earth's history. By examining the different
+        layers of rocks, we can piece together the sequence of events and understand
+        how Earth has changed over time.
+      spr: {fileID: 21300000, guid: d5b4d33d434e8b54fb653938ba385856, type: 3}
+      btnMessage: OK!
+    - title: 'Stratigraphy '
+      message: Stratigraphy helps us determine the relative ages of rocks and fossils,
+        unlocking clues about past environments and the evolution of life. Get ready
+        to dive deeper into the layers!
+      spr: {fileID: 21300000, guid: d5b4d33d434e8b54fb653938ba385856, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: T-rex
+    messages:
+    - title: T-rex
+      message: Amazing find! You've unearthed a fossil from a Tyrannosaurus Rex,
+        the mighty king of the dinosaurs. T-Rex lived around 85 million years ago
+        during the Age of Reptiles. Sadly, T-Rex and many other species became extinct
+        due to a catastrophic event known as a mass extinction
+      spr: {fileID: 21300000, guid: d19c81ccde4dd734f9fcc2f13b86bf84, type: 3}
+      btnMessage: OK!
+    - title: T-rex
+      message: Scientists believe this event could have been caused by a massive
+        asteroid impact or intense volcanic activity. Your discovery helps us learn
+        more about the history of life on Earth.
+      spr: {fileID: 21300000, guid: d19c81ccde4dd734f9fcc2f13b86bf84, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Archaopterys
+    messages:
+    - title: Archaeopteryx
+      message: Congratulations! You've discovered a fossil of Archaopteryx, one of
+        the earliest birds. This fossil is from around 150 million years ago during
+        the Jurassic period. Archaopteryx had unique characteristics that resembled
+        both dinosaurs and birds. Its discovery helps us understand the evolution
+        of flight and the development of avian features. Keep exploring to uncover
+        more fascinating fossils!
+      spr: {fileID: 21300000, guid: 1417bb07c0345d948bbb2f540f2bcbfa, type: 3}
+      btnMessage: OK!
+    claimed: 0
+  - id: Coelophysis
+    messages:
+    - title: Coelophysis
+      message: Well done! You've found a fossil of Coelophysis, an early dinosaur
+        that lived during the Triassic period. Coelophysis was one of the earliest
+        and fastest dinosaurs, with lightweight and agile features. Its discovery
+        provides valuable insights into the early stages of dinosaur evolution and
+        the diversity of prehistoric life. Keep searching for more fossils to expand
+        your knowledge!
+      spr: {fileID: 21300000, guid: e733e6db765a802458f900a6494bf907, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Superposition
+    messages:
+    - title: Superposition
+      message: Get ready to learn about the principle of superposition! This important
+        concept tells us that younger rock layers are found on top of older ones.
+        Just like when you build a tower of blocks, the newer blocks are placed above
+        the older ones. Geologists use superposition to decipher the order of rock
+        layers and understand the relative ages of fossils. As you explore further,
+        remember that the principle of superposition is your guide to unraveling
+        Earth's timeline!
+      spr: {fileID: 21300000, guid: a1de9954833cbff42bf6d4d6d213ec11, type: 3}
+      btnMessage: OK!
+    claimed: 0
+  - id: Fossil Discovery
+    messages:
+    - title: Fossil Discovery
+      message: Wow, you've stumbled upon an amazing treasure underwater! These hidden
+        gems are fossils, the ancient remains or traces of once-living creatures.
+        They're like underwater time capsules, holding secrets of the past. As you
+        explore the depths, keep your eyes peeled for more fossil treasures. Who
+        knows what incredible marine creatures you'll uncover!
+      spr: {fileID: 21300000, guid: 70e06c69dcfc1804dba5d19b2675d5cb, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Relative Age Dating
+    messages:
+    - title: Relative Age Dating
+      message: Ready to dive into the world of relative age dating? It's like being
+        a detective of the deep sea. By examining the layers of underwater rocks,
+        we can uncover the clues that tell us which ones are older or younger. It's
+        a game of rock layers, where you get to piece together the story of the underwater
+        world. Get your magnifying goggles on and prepare for some age-dating adventure
+      spr: {fileID: 21300000, guid: d1bd45afb5818ed46b5a619e17e32f53, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Absolute Age Dating
+    messages:
+    - title: Absolute Age Dating
+      message: Get ready to unlock the secrets of underwater rock ages with absolute
+        age dating! We're talking precise dating techniques that reveal the exact
+        time these rocks were formed. It's like discovering the birth certificates
+        of the underwater world. By using scientific wizardry, we can calculate ages
+        in millions and billions of years. So, gear up, time-travelers! Let's dive
+        into the depths of the past!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: The Marvelous Fossils
+    messages:
+    - title: The Marvelous Fossils
+      message: Deep beneath the waves, a hidden world of marvelous fossils awaits!
+        These incredible relics are like snapshots of the ancient marine life. They
+        tell us stories of strange creatures and the underwater environments they
+        inhabited. So, grab your fossil-hunting gear and dive into the adventure.
+        Who knows? You might uncover a fossil that's never been seen before!
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Exploring the Aquatic Wonderland
+    messages:
+    - title: Exploring the Aquatic Wonderland
+      message: 'As you dive deeper, you''ll witness coral reefs bursting with colors,
+        mysterious trenches shrouded in darkness, and an array of fascinating marine
+        life. But don''t forget to keep an eye on the layers of underwater rocks.
+        They hold the secrets of ancient times and the fascinating fossils that reveal
+        the underwater world''s evolution. '
+      spr: {fileID: 21300000, guid: 8a7296d0d6b7fe84b8fa4712754676a3, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: Unraveling Earth's Waterlogged History
+    messages:
+    - title: Unraveling Earth's Waterlogged History
+      message: Prepare to unravel the waterlogged mysteries of Earth's history! By
+        exploring underwater environments, we can unlock the tales of ancient times.
+        From the rise and fall of ancient seas to the evolution of marine life, the
+        underwater rocks have stories to tell. So, strap on your diving gear, grab
+        your magnifying glass, and let's dive into the depths to reveal the submerged
+        secrets of our watery planet!
+      spr: {fileID: 21300000, guid: 0adb2b68f32c59847b5ac0c073cabc8d, type: 3}
+      btnMessage: OK!
+    claimed: 1
+  - id: The Wonders of Uniformitarianism
+    messages:
+    - title: The Wonders of Uniformitarianism
+      message: 'Did you know that the forces shaping the underwater world today have
+        been at work throughout history? It''s like the ultimate episode of ''Planet
+        Earth: Underwater Edition.'' From erosion to sedimentation, and even plate
+        tectonics, these natural forces have been shaping our planet for ages.'
+      spr: {fileID: 21300000, guid: 2ea19f04772bbb948ae8974fda4343f5, type: 3}
+      btnMessage: OK!
+    claimed: 1

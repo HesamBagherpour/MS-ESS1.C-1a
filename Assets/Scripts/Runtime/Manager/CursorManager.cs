@@ -2,9 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.UI;
 
-namespace Emaj.Fossil.Manager
+namespace Runtime.Manager
 {
     public class CursorManager : MonoBehaviour
     {

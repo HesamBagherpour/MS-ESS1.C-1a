@@ -1,5 +1,6 @@
 using System;
-using Emaj.Fossil.Collectable;
+using Runtime.Manager;
+using Runtime.UI;
 using UnityEngine;
 
 namespace Runtime.Collectable
@@ -41,7 +42,7 @@ namespace Runtime.Collectable
         private void RockDestroyed()
         {
             number--;
-            //AudioManager.Instance.PlaySFX(AudioManager.Instance.SFX.hitRockSfx);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.SFX.hitRockSfx);
             if (number == 0)
             {
                 Collectable();
@@ -51,19 +52,19 @@ namespace Runtime.Collectable
 
         public override void Collectable()
         {
-            //var audio = AudioManager.Instance;
-            //var ui = UIManager.Instance;
-            //audio.PlaySFX(audio.SFX.foundFossilSfx);
-//
-            // LevelManager.Instance.GetFossil();
-            //
-            // ui.ShowDialogue(Id, () =>
-            // {
-            //     ui.dialoguePopUp.Hide();
-            //     Destroy(_fossilImage.gameObject);
-            //     Destroy(_fossilPickupVfx.gameObject);
-            //     RockCollectabled?.Invoke();
-            // });
+            var audio = AudioManager.Instance;
+            var ui = UIManager.Instance;
+            audio.PlaySFX(audio.SFX.foundFossilSfx);
+
+             LevelManager.Instance.GetFossil();
+            
+             ui.ShowDialogue(Id, () =>
+             {
+                 ui.dialoguePopUp.Hide();
+                 Destroy(_fossilImage.gameObject);
+                 Destroy(_fossilPickupVfx.gameObject);
+                 RockCollectabled?.Invoke();
+             });
         }
     }
 }
