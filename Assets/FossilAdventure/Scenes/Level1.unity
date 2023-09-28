@@ -5253,7 +5253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelTime: 600
-  portal: {fileID: 0}
+  portal: {fileID: 6305171175850070587, guid: ed1b024cfbefd1d4db8ad93cd4238445, type: 3}
   player: {fileID: 0}
   fossilCount: 5
 --- !u!4 &877450592
