@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/FossilAdventure/Scenes/init.unity
+    guid: 59872adc67856804d9eb5d4baea28216
+  - enabled: 1
+    path: Assets/FossilAdventure/Scenes/MainMenu.unity
+    guid: 90a40e1ecf7e5bc44baa649fccb748f2
+  - enabled: 1
     path: Assets/FossilAdventure/Scenes/Level1.unity
     guid: e3dda865276228c4493c27bf1aeed0ad
+  - enabled: 1
+    path: Assets/FossilAdventure/Scenes/Level2.unity
+    guid: b56b06c55cf1440409e31e841324272b
   m_configObjects: {}

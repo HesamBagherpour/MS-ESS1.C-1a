@@ -11157,37 +11157,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 22dc21eec3aab4c79b134ff4b44ca618, type: 3}
---- !u!1 &2119339496
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2119339497}
-  m_Layer: 0
-  m_Name: -------------Temp------------------------
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2119339497
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119339496}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 125.51965, y: -11.662346, z: -4.809511}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2125704048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3485356772447852666, guid: 7bc094ce3afb7764b97cca81cae1ca14,
@@ -13008,4 +12977,3 @@ SceneRoots:
   - {fileID: 554708042}
   - {fileID: 877450592}
   - {fileID: 555400882}
-  - {fileID: 2119339497}
