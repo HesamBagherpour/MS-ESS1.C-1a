@@ -16,82 +16,105 @@ MonoBehaviour:
   - id: Trilobite
     messages:
     - title: Trilobite
-      message: 'This little dude with a hard shell lived over 500 million years ago
-        and is extinct now. Geologists love trilobites because they help them figure
-        out how old rocks are! '
-      spr: {fileID: 21300000, guid: 54c10ba9aa0bf284b8ed3541d2a74331, type: 3}
+      message: Say hello to our little buddy, the Trilobite! This pint-sized explorer,
+        sporting a snazzy hard shell, was strutting its stuff on Earth over a whopping
+        500 million years ago! But, it's been a while since we last spotted one of
+        these in the neighborhood. Why are trilobites so special? Well, they're like
+        the Sherlock Holmes of the rock world for geologists!
       btnMessage: Hmm !
     - title: Trilobite(II)
-      message: ' By looking at the shape and size of trilobites, scientists can guess
-        how old the rocks they were found in are, and what the environment was like
-        back then.'
-      spr: {fileID: 21300000, guid: 54c10ba9aa0bf284b8ed3541d2a74331, type: 3}
+      message: 'Imagine this: Geologists are like detectives, and trilobites are
+        their trusty sidekicks. These detectives (or geologists) use their magnifying
+        glasses to closely inspect trilobite buddies. Why? Because these ancient
+        critters spill the beans about the age of the rocks they were crashin'' in,
+        and they give us a sneak peek into the wild parties that were happenin''
+        in those rocks way back when!'
       btnMessage: OK!
     claimed: 1
   - id: Ammonite
     messages:
     - title: Ammonite
-      message: Ammonites are like snails that lived in the ocean over 65 million
-        years ago. When you find an ammonite fossil, it can give you clues about
-        what kind of environment it lived in, like if it was a shallow or deep ocean.
-        And guess what? Geologists can also use ammonite fossils to figure out how
-        old rocks are!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: 'Meet the Ammonite! These ocean explorers from over 65 million years
+        ago were like the rock ''n'' roll snails of the sea! '
+      btnMessage: OK!
+    - title: Ammonite
+      message: When you stumble upon an ammonite fossil, it's like discovering a
+        hidden treasure chest of secrets about their watery world. These fossilized
+        snails aren't just any snails; they're the rock stars of the ancient ocean.
+      btnMessage: OK!
+    - title: Ammonite
+      message: Wondering how deep the ocean was back then? Or if it was a shallow
+        swim or a deep-sea dive for these ammonite buddies? Well, guess what? Ammonite
+        fossils spill the beans! They're like ocean detectives, and geologists use
+        their findings to unlock the mysteries of Earth's history. So, when you find
+        an ammonite, you're not just discovering a cool fossil; you're diving into
+        the thrilling world of ancient oceans and unraveling the story of rocks through
+        time!
       btnMessage: OK!
     claimed: 1
   - id: Gastropod
     messages:
     - title: Gastropod
-      message: These little guys look like snails, and they lived in the ocean a
-        long time ago. Gastropods are important for geologists because they can help
-        figure out the age of rocks, just like trilobites and ammonites! Scientists
-        can look at the shape and size of gastropod fossils to make an educated guess
-        about how old the rocks they were found in are.
-      spr: {fileID: 21300000, guid: f77d6d8d78adb22409d1f2aee58dfad2, type: 3}
+      message: Introducing the Gastropod!  These aquatic adventurers may look like
+        snails, and that's because they're close relatives. They were the ocean's
+        cool cats (well, snails!) a long, long time ago.
+      btnMessage: OK!
+    - title: Gastropod
+      message: Gastropods are like the timekeepers of the Earth's history, just like
+        trilobites and ammonites! These tiny ocean dwellers hold the secrets to the
+        age of rocks, and scientists couldn't be more thrilled about it.
+      btnMessage: OK!
+    - title: Gastropod
+      message: By studying the shapes and sizes of these gastropods, scientists can
+        take a journey back in time and make educated guesses about how old the rocks
+        they call home really are. It's like unlocking the Earth's hidden time capsule,
+        one gastropod at a time
       btnMessage: OK!
     claimed: 1
   - id: Brachiopod
     messages:
     - title: Brachiopod
-      message: Brachiopods were little creatures that lived in the ocean a long time
-        ago. They have a hard shell that can be found as a fossil today! Brachiopod
-        fossils are important for geologists because they can help determine the
-        age of rocks. By looking at the size and shape of brachiopod fossils, scientists
-        can make a good guess about how old the rocks they were found in are.
-      spr: {fileID: 21300000, guid: 9134045398f9f2747b6c95f5ff4aabce, type: 3}
+      message: Meet the Brachiopods, the ancient ocean architects with stylish hard
+        shells! These tiny sea-dwellers were the masters of their underwater domain
+        millions of years ago. They might be gone, but their legacy lives on as fossils
+        in rocks.
+      btnMessage: OK!
+    - title: Brachiopod
+      message: 'Now, here''s where the plot thickens! Brachiopod fossils are like
+        hidden treasures for geologists. These fossils hold the key to unlocking
+        the age of rocks. How do they do it? Well, it''s all about the size and shape.
+        Imagine playing detective with rocks, but instead of a magnifying glass,
+        you''re using Brachiopod fossils. '
+      btnMessage: OK!
+    - title: Brachiopod
+      message: As scientists examine these ancient shells, they make educated guesses
+        about how old the rocks they call home really are. It's like deciphering
+        the Earth's secret code, one Brachiopod at a time!
       btnMessage: OK!
     claimed: 1
   - id: Crinoid
     messages:
     - title: Crinoid
-      message: Crinoids, also called sea lilies, were little sea creatures that lived
-        a long time ago. Their fossilized remains look like little star-shaped bits
-        of rock. Geologists can use crinoid fossils to figure out how old rocks are.
-        They can also give us clues about what kind of environment they lived in,
-        like if it was shallow or deep water.
-      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
+      message: Introducing the enchanting Crinoids, or as some like to call them,
+        the "Sea Lilies" of yesteryears!
       btnMessage: OK!
     - title: Crinoid(II)
-      message: "By examining the types of crinoids present in a rock layer, scientists
-        can determine the age of the rocks and the environment in which they were
-        formed.\r"
-      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
+      message: "These whimsical sea creatures, long gone but not forgotten, once
+        danced beneath the waves. Today, their fossilized remnants resemble little
+        star-shaped rock treasures. \r"
       btnMessage: OK!
-    claimed: 1
-  - id: 'Stratigraphy '
-    messages:
-    - title: 'Stratigraphy '
-      message: Welcome to the fascinating world of stratigraphy! Scientists use stratigraphy
-        to study rock layers and uncover Earth's history. By examining the different
-        layers of rocks, we can piece together the sequence of events and understand
-        how Earth has changed over time.
-      spr: {fileID: 21300000, guid: d5b4d33d434e8b54fb653938ba385856, type: 3}
+    - title: Crinoid(II)
+      message: "But here's where it gets exciting! Crinoid fossils are like time-traveling
+        keys for geologists. They help unlock the age of rocks and whisper secrets
+        about their ancient environments. It's like a journey back in time when scientists
+        examine the crinoids within a rock layer\r"
       btnMessage: OK!
-    - title: 'Stratigraphy '
-      message: Stratigraphy helps us determine the relative ages of rocks and fossils,
-        unlocking clues about past environments and the evolution of life. Get ready
-        to dive deeper into the layers!
-      spr: {fileID: 21300000, guid: d5b4d33d434e8b54fb653938ba385856, type: 3}
+    - title: Crinoid(II)
+      message: "By carefully studying the types of crinoids nestled in the rocks,
+        these rock detectives can piece together the puzzle of Earth's history. 
+        They reveal not only the age of the rocks but also whether they were formed
+        in shallow or deep waters. It's like reading nature's own history book, one
+        crinoid at a time!\r"
       btnMessage: OK!
     claimed: 1
   - id: T-rex
@@ -101,50 +124,49 @@ MonoBehaviour:
         the mighty king of the dinosaurs. T-Rex lived around 85 million years ago
         during the Age of Reptiles. Sadly, T-Rex and many other species became extinct
         due to a catastrophic event known as a mass extinction
-      spr: {fileID: 21300000, guid: d19c81ccde4dd734f9fcc2f13b86bf84, type: 3}
       btnMessage: OK!
     - title: T-rex
-      message: Scientists believe this event could have been caused by a massive
-        asteroid impact or intense volcanic activity. Your discovery helps us learn
-        more about the history of life on Earth.
-      spr: {fileID: 21300000, guid: d19c81ccde4dd734f9fcc2f13b86bf84, type: 3}
+      message: Amazing discovery, island explorer! Behold, the fossil of a Tyrannosaurus
+        Rex, the formidable ruler of this island 85 million years ago during the
+        Age of Reptiles. Imagine the lush jungles and towering palm trees that once
+        provided a backdrop to this colossal predator. Sadly, a mass extinction event
+        forever altered this island's destiny, leaving only whispers of its prehistoric
+        grandeur. Your find guides us through time, helping us uncover the island's
+        lost secrets
       btnMessage: OK!
     claimed: 1
   - id: Archaopterys
     messages:
     - title: Archaeopteryx
-      message: Congratulations! You've discovered a fossil of Archaopteryx, one of
-        the earliest birds. This fossil is from around 150 million years ago during
-        the Jurassic period. Archaopteryx had unique characteristics that resembled
-        both dinosaurs and birds. Its discovery helps us understand the evolution
-        of flight and the development of avian features. Keep exploring to uncover
-        more fascinating fossils!
-      spr: {fileID: 21300000, guid: 1417bb07c0345d948bbb2f540f2bcbfa, type: 3}
+      message: Congratulations, intrepid explorer! You've unearthed an Archaopteryx
+        fossil, a creature that once soared over lush, ancient island paradises around
+        150 million years ago. This 'dino-bird' is like the missing link between
+        dinosaurs and birds, and it's been quite the inspiration for our feathery
+        friends. Your discovery not only sheds light on Earth's prehistoric past
+        but also reminds us of the wonders that once graced these island skies.
       btnMessage: OK!
     claimed: 0
   - id: Coelophysis
     messages:
     - title: Coelophysis
-      message: Well done! You've found a fossil of Coelophysis, an early dinosaur
-        that lived during the Triassic period. Coelophysis was one of the earliest
-        and fastest dinosaurs, with lightweight and agile features. Its discovery
-        provides valuable insights into the early stages of dinosaur evolution and
-        the diversity of prehistoric life. Keep searching for more fossils to expand
-        your knowledge!
-      spr: {fileID: 21300000, guid: e733e6db765a802458f900a6494bf907, type: 3}
+      message: Well done, adventurer! You've stumbled upon the remains of a Coelophysis,
+        a swift and agile island dweller from the distant Triassic period. Can you
+        imagine what life was like on these tropical isles back then? Coelophysis
+        was among the earliest of the island's inhabitants, sharing the sandy shores
+        with the first true mammals. Your find brings us one step closer to understanding
+        the vibrant history of these ancient island ecosystems.
       btnMessage: OK!
     claimed: 1
   - id: Superposition
     messages:
     - title: Superposition
-      message: Get ready to learn about the principle of superposition! This important
-        concept tells us that younger rock layers are found on top of older ones.
-        Just like when you build a tower of blocks, the newer blocks are placed above
-        the older ones. Geologists use superposition to decipher the order of rock
-        layers and understand the relative ages of fossils. As you explore further,
-        remember that the principle of superposition is your guide to unraveling
-        Earth's timeline!
-      spr: {fileID: 21300000, guid: a1de9954833cbff42bf6d4d6d213ec11, type: 3}
+      message: Embark on an island adventure where the principle of superposition
+        becomes your guiding star! Just as the island's lush foliage grows layer
+        by layer, rock layers here follow a similar pattern. The principle of superposition
+        tells us that newer layers form on top of older ones, much like the vibrant
+        flora on this island. So, as we explore, remember that this principle will
+        help us unveil the island's history, one layer at a time. Let's set sail,
+        island adventurer, and unearth the island's secrets!
       btnMessage: OK!
     claimed: 0
   - id: Fossil Discovery
@@ -155,73 +177,65 @@ MonoBehaviour:
         They're like underwater time capsules, holding secrets of the past. As you
         explore the depths, keep your eyes peeled for more fossil treasures. Who
         knows what incredible marine creatures you'll uncover!
-      spr: {fileID: 21300000, guid: 70e06c69dcfc1804dba5d19b2675d5cb, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Relative Age Dating
     messages:
     - title: Relative Age Dating
-      message: Ready to dive into the world of relative age dating? It's like being
-        a detective of the deep sea. By examining the layers of underwater rocks,
-        we can uncover the clues that tell us which ones are older or younger. It's
-        a game of rock layers, where you get to piece together the story of the underwater
-        world. Get your magnifying goggles on and prepare for some age-dating adventure
-      spr: {fileID: 21300000, guid: d1bd45afb5818ed46b5a619e17e32f53, type: 3}
+      message: 'Embark on a journey into the heart of the jungle as a detective of
+        the rainforest. Your mission: to decipher the age of jungle rocks by carefully
+        examining their layers. Uncover the clues that reveal which rocks are older
+        or younger in this thrilling geological adventure. Gear up for age-dating
+        in the jungle, where every layer holds a piece of the ancient puzzle'
       btnMessage: OK!
     claimed: 1
   - id: Absolute Age Dating
     messages:
     - title: Absolute Age Dating
-      message: Get ready to unlock the secrets of underwater rock ages with absolute
-        age dating! We're talking precise dating techniques that reveal the exact
-        time these rocks were formed. It's like discovering the birth certificates
-        of the underwater world. By using scientific wizardry, we can calculate ages
-        in millions and billions of years. So, gear up, time-travelers! Let's dive
-        into the depths of the past!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: In this corner of the jungle, we're delving into the precise methods
+        that reveal the exact moments these rocks came into being. It's like uncovering
+        the birth certificates of the jungle's hidden history. Using scientific wizardry,
+        we'll calculate ages spanning millions and even billions of years. Get ready
+        to dive deep into the past!
       btnMessage: OK!
     claimed: 1
   - id: The Marvelous Fossils
     messages:
     - title: The Marvelous Fossils
-      message: Deep beneath the waves, a hidden world of marvelous fossils awaits!
-        These incredible relics are like snapshots of the ancient marine life. They
-        tell us stories of strange creatures and the underwater environments they
-        inhabited. So, grab your fossil-hunting gear and dive into the adventure.
-        Who knows? You might uncover a fossil that's never been seen before!
-      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
+      message: Within towering mountains and lush jungles, a world of extraordinary
+        fossils emerges. These remarkable relics capture moments from ancient life
+        in these diverse landscapes, unveiling stories of peculiar creatures and
+        their past habitats.
       btnMessage: OK!
     claimed: 1
-  - id: Exploring the Aquatic Wonderland
+  - id: Venturing Through Wild Terrain
     messages:
-    - title: Exploring the Aquatic Wonderland
-      message: 'As you dive deeper, you''ll witness coral reefs bursting with colors,
-        mysterious trenches shrouded in darkness, and an array of fascinating marine
-        life. But don''t forget to keep an eye on the layers of underwater rocks.
-        They hold the secrets of ancient times and the fascinating fossils that reveal
-        the underwater world''s evolution. '
-      spr: {fileID: 21300000, guid: 8a7296d0d6b7fe84b8fa4712754676a3, type: 3}
+    - title: Venturing Through Wild Terrain
+      message: As you journey deeper, you'll encounter dense jungles teeming with
+        vibrant flora, rugged mountain landscapes offering breathtaking vistas, and
+        a wealth of intriguing wildlife. But be sure to stay attentive to the layers
+        of rock formations within these diverse terrains. They guard the enigmatic
+        tales of bygone eras and the captivating fossils that unveil the secrets
+        of these natural worlds.
       btnMessage: OK!
     claimed: 1
-  - id: Unraveling Earth's Waterlogged History
+  - id: Discovering Earth's Submerged Past
     messages:
-    - title: Unraveling Earth's Waterlogged History
-      message: Prepare to unravel the waterlogged mysteries of Earth's history! By
-        exploring underwater environments, we can unlock the tales of ancient times.
-        From the rise and fall of ancient seas to the evolution of marine life, the
-        underwater rocks have stories to tell. So, strap on your diving gear, grab
-        your magnifying glass, and let's dive into the depths to reveal the submerged
-        secrets of our watery planet!
-      spr: {fileID: 21300000, guid: 0adb2b68f32c59847b5ac0c073cabc8d, type: 3}
+    - title: Discovering Earth's Submerged Past
+      message: As we journey through mountains and jungles, we'll unearth stories
+        of ancient epochs. From the geological wonders of bygone eras to the evolution
+        of life in these diverse terrains, the rocks hold tales of the past. So,
+        gear up, adventurers, and let's delve into the depths of time to unveil the
+        secrets of our planet's incredible history!
       btnMessage: OK!
     claimed: 1
   - id: The Wonders of Uniformitarianism
     messages:
     - title: The Wonders of Uniformitarianism
-      message: 'Did you know that the forces shaping the underwater world today have
-        been at work throughout history? It''s like the ultimate episode of ''Planet
-        Earth: Underwater Edition.'' From erosion to sedimentation, and even plate
-        tectonics, these natural forces have been shaping our planet for ages.'
-      spr: {fileID: 21300000, guid: 2ea19f04772bbb948ae8974fda4343f5, type: 3}
+      message: 'Did you know that the forces shaping these incredible landscapes
+        have been at work throughout Earth''s history? It''s like watching the ultimate
+        episode of ''Planet Earth: The Ancient Chronicles.'' From erosion to sedimentation,
+        and even the mighty dance of tectonic plates, these natural wonders have
+        been sculpting our planet for ages.'
       btnMessage: OK!
     claimed: 1
