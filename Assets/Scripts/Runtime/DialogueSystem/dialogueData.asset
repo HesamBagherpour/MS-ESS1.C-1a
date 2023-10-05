@@ -46,10 +46,12 @@ MonoBehaviour:
       message: Wondering how deep the ocean was back then? Or if it was a shallow
         swim or a deep-sea dive for these ammonite buddies? Well, guess what? Ammonite
         fossils spill the beans! They're like ocean detectives, and geologists use
-        their findings to unlock the mysteries of Earth's history. So, when you find
-        an ammonite, you're not just discovering a cool fossil; you're diving into
-        the thrilling world of ancient oceans and unraveling the story of rocks through
-        time!
+        their findings to unlock the mysteries of Earth's history.
+      btnMessage: OK!
+    - title: Ammonite
+      message: So, when you find an ammonite, you're not just discovering a cool
+        fossil; you're diving into the thrilling world of ancient oceans and unraveling
+        the story of rocks through time!
       btnMessage: OK!
     claimed: 1
   - id: Gastropod
@@ -129,10 +131,12 @@ MonoBehaviour:
       message: Amazing discovery, island explorer! Behold, the fossil of a Tyrannosaurus
         Rex, the formidable ruler of this island 85 million years ago during the
         Age of Reptiles. Imagine the lush jungles and towering palm trees that once
-        provided a backdrop to this colossal predator. Sadly, a mass extinction event
-        forever altered this island's destiny, leaving only whispers of its prehistoric
-        grandeur. Your find guides us through time, helping us uncover the island's
-        lost secrets
+        provided a backdrop to this colossal predator.
+      btnMessage: OK!
+    - title: T-rex
+      message: Sadly, a mass extinction event forever altered this island's destiny,
+        leaving only whispers of its prehistoric grandeur. Your find guides us through
+        time, helping us uncover the island's lost secrets
       btnMessage: OK!
     claimed: 1
   - id: Archaopterys
@@ -140,10 +144,15 @@ MonoBehaviour:
     - title: Archaeopteryx
       message: Congratulations, intrepid explorer! You've unearthed an Archaopteryx
         fossil, a creature that once soared over lush, ancient island paradises around
-        150 million years ago. This 'dino-bird' is like the missing link between
-        dinosaurs and birds, and it's been quite the inspiration for our feathery
-        friends. Your discovery not only sheds light on Earth's prehistoric past
-        but also reminds us of the wonders that once graced these island skies.
+        150 million years ago.
+      btnMessage: OK!
+    - title: Archaeopteryx
+      message: This 'dino-bird' is like the missing link between dinosaurs and birds,
+        and it's been quite the inspiration for our feathery friends.
+      btnMessage: OK!
+    - title: Archaeopteryx
+      message: Your discovery not only sheds light on Earth's prehistoric past but
+        also reminds us of the wonders that once graced these island skies.
       btnMessage: OK!
     claimed: 0
   - id: Coelophysis
@@ -174,29 +183,36 @@ MonoBehaviour:
     - title: Fossil Discovery
       message: Wow, you've stumbled upon an amazing treasure underwater! These hidden
         gems are fossils, the ancient remains or traces of once-living creatures.
-        They're like underwater time capsules, holding secrets of the past. As you
-        explore the depths, keep your eyes peeled for more fossil treasures. Who
-        knows what incredible marine creatures you'll uncover!
+      btnMessage: OK!
+    - title: Fossil Discovery
+      message: They're like underwater time capsules, holding secrets of the past.
+        As you explore the depths, keep your eyes peeled for more fossil treasures.
+        Who knows what incredible marine creatures you'll uncover!
       btnMessage: OK!
     claimed: 1
   - id: Relative Age Dating
     messages:
     - title: Relative Age Dating
       message: 'Embark on a journey into the heart of the jungle as a detective of
-        the rainforest. Your mission: to decipher the age of jungle rocks by carefully
-        examining their layers. Uncover the clues that reveal which rocks are older
-        or younger in this thrilling geological adventure. Gear up for age-dating
-        in the jungle, where every layer holds a piece of the ancient puzzle'
+        the rainforest. '
+      btnMessage: OK!
+    - title: Relative Age Dating
+      message: 'Your mission: to decipher the age of jungle rocks by carefully examining
+        their layers. Uncover the clues that reveal which rocks are older or younger
+        in this thrilling geological adventure. Gear up for age-dating in the jungle,
+        where every layer holds a piece of the ancient puzzle'
       btnMessage: OK!
     claimed: 1
   - id: Absolute Age Dating
     messages:
     - title: Absolute Age Dating
-      message: In this corner of the jungle, we're delving into the precise methods
-        that reveal the exact moments these rocks came into being. It's like uncovering
-        the birth certificates of the jungle's hidden history. Using scientific wizardry,
-        we'll calculate ages spanning millions and even billions of years. Get ready
-        to dive deep into the past!
+      message: 'In this corner of the jungle, we''re delving into the precise methods
+        that reveal the exact moments these rocks came into being. '
+      btnMessage: OK!
+    - title: Absolute Age Dating
+      message: It's like uncovering the birth certificates of the jungle's hidden
+        history. Using scientific wizardry, we'll calculate ages spanning millions
+        and even billions of years. Get ready to dive deep into the past!
       btnMessage: OK!
     claimed: 1
   - id: The Marvelous Fossils
@@ -211,12 +227,14 @@ MonoBehaviour:
   - id: Venturing Through Wild Terrain
     messages:
     - title: Venturing Through Wild Terrain
-      message: As you journey deeper, you'll encounter dense jungles teeming with
+      message: 'As you journey deeper, you''ll encounter dense jungles teeming with
         vibrant flora, rugged mountain landscapes offering breathtaking vistas, and
         a wealth of intriguing wildlife. But be sure to stay attentive to the layers
-        of rock formations within these diverse terrains. They guard the enigmatic
-        tales of bygone eras and the captivating fossils that unveil the secrets
-        of these natural worlds.
+        of rock formations within these diverse terrains. '
+      btnMessage: OK!
+    - title: Venturing Through Wild Terrain
+      message: They guard the enigmatic tales of bygone eras and the captivating
+        fossils that unveil the secrets of these natural worlds.
       btnMessage: OK!
     claimed: 1
   - id: Discovering Earth's Submerged Past
@@ -224,9 +242,12 @@ MonoBehaviour:
     - title: Discovering Earth's Submerged Past
       message: As we journey through mountains and jungles, we'll unearth stories
         of ancient epochs. From the geological wonders of bygone eras to the evolution
-        of life in these diverse terrains, the rocks hold tales of the past. So,
-        gear up, adventurers, and let's delve into the depths of time to unveil the
-        secrets of our planet's incredible history!
+        of life in these diverse terrains.
+      btnMessage: OK!
+    - title: Discovering Earth's Submerged Past
+      message: the rocks hold tales of the past. So, gear up, adventurers, and let's
+        delve into the depths of time to unveil the secrets of our planet's incredible
+        history!
       btnMessage: OK!
     claimed: 1
   - id: The Wonders of Uniformitarianism
