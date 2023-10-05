@@ -789,11 +789,11 @@ MonoBehaviour:
   - {fileID: 554708044}
   - {fileID: 554708043}
   prefab:
-  - {fileID: 1994753224821800091, guid: 0e9a55172b0c32f4bb8029a225480bfd, type: 3}
-  - {fileID: 1644606014532690586, guid: bea1819c2c1200d459adced701d3631d, type: 3}
-  - {fileID: 2746125169332119290, guid: c615b002ffefcc94cbcbacf298bf8f16, type: 3}
-  - {fileID: 7981008345108563267, guid: 79684076f735c03418c26a42a9fb86c4, type: 3}
-  - {fileID: 1077431612805457662, guid: 952e40164cf649d41b08b55b8f215f1d, type: 3}
+  - {fileID: 1994753224821800091, guid: d7ee2c0d27e625842b70324864e5a7b9, type: 3}
+  - {fileID: 1994753224821800091, guid: 402960c9fc3b8804eb5d0410787cf862, type: 3}
+  - {fileID: 1994753224821800091, guid: 7cbebe87607cfda45ae6095a44499024, type: 3}
+  - {fileID: 1994753224821800091, guid: b97cbc2d678041f429b4342104e943a9, type: 3}
+  - {fileID: 1994753224821800091, guid: 0bebeb4621213c947b65ff292c486be3, type: 3}
 --- !u!1 &251564974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 503644770735244022, guid: 339964fdbe64b8c41903d91c08b40d61,
@@ -7637,6 +7637,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1229966495767584643, guid: 550b91852aaad1742a0d78316e89001e,
+        type: 3}
+      propertyPath: dialogueData
+      value: 
+      objectReference: {fileID: 11400000, guid: eb36919c36fb1884daf52d2dfbc5db09,
+        type: 2}
     - target: {fileID: 6722741184312838804, guid: 550b91852aaad1742a0d78316e89001e,
         type: 3}
       propertyPath: m_Pivot.x

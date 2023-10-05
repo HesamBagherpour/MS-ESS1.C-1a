@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1994753224821800090}
   - component: {fileID: 843755682271380110}
   m_Layer: 0
-  m_Name: Fossil_Collect_level02_04
+  m_Name: Fossil_Collect_level02_05
   m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cfaaa1d4e5818545af81a4746ef8a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Id>k__BackingField: Fossil Discovery
+  <Id>k__BackingField: Relative Age Dating
 --- !u!1 &8102137854355092360
 GameObject:
   m_ObjectHideFlags: 0
