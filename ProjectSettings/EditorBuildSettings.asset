@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FossilAdventure/Scenes/Level3.unity
     guid: 093e8c582fcfad544947d618d45c4738
+  - enabled: 1
+    path: Assets/FossilAdventure/Scenes/Level4_end.unity
+    guid: b3c5179bab1aaa642aac30d5ebe01e74
   m_configObjects: {}
