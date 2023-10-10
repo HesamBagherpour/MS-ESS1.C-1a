@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cfaaa1d4e5818545af81a4746ef8a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Id>k__BackingField: Fossil Discovery
+  <Id>k__BackingField: Coelophysis
 --- !u!1 &8102137854355092360
 GameObject:
   m_ObjectHideFlags: 0
