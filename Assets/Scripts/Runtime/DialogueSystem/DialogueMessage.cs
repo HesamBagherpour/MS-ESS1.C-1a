@@ -17,7 +17,7 @@ namespace Runtime.DialogueSystem
     {
         public string title;
         [TextArea] public string message;
-        [NonSerialized] public Sprite spr;
+        public Sprite spr;
         public string btnMessage;
     }
 }

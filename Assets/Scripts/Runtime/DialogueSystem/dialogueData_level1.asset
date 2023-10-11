@@ -21,6 +21,7 @@ MonoBehaviour:
         500 million years ago! But, it's been a while since we last spotted one of
         these in the neighborhood. Why are trilobites so special? Well, they're like
         the Sherlock Holmes of the rock world for geologists!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: Hmm !
     - title: Trilobite(II)
       message: 'Imagine this: Geologists are like detectives, and trilobites are
@@ -29,6 +30,7 @@ MonoBehaviour:
         critters spill the beans about the age of the rocks they were crashin'' in,
         and they give us a sneak peek into the wild parties that were happenin''
         in those rocks way back when!'
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Ammonite
@@ -36,11 +38,13 @@ MonoBehaviour:
     - title: Ammonite
       message: 'Meet the Ammonite! These ocean explorers from over 65 million years
         ago were like the rock ''n'' roll snails of the sea! '
+      spr: {fileID: 0}
       btnMessage: OK!
     - title: Ammonite
       message: When you stumble upon an ammonite fossil, it's like discovering a
         hidden treasure chest of secrets about their watery world. These fossilized
         snails aren't just any snails; they're the rock stars of the ancient ocean.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Ammonite
       message: Wondering how deep the ocean was back then? Or if it was a shallow
@@ -50,6 +54,7 @@ MonoBehaviour:
         an ammonite, you're not just discovering a cool fossil; you're diving into
         the thrilling world of ancient oceans and unraveling the story of rocks through
         time!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Gastropod
@@ -58,17 +63,20 @@ MonoBehaviour:
       message: Introducing the Gastropod!  These aquatic adventurers may look like
         snails, and that's because they're close relatives. They were the ocean's
         cool cats (well, snails!) a long, long time ago.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Gastropod
       message: Gastropods are like the timekeepers of the Earth's history, just like
         trilobites and ammonites! These tiny ocean dwellers hold the secrets to the
         age of rocks, and scientists couldn't be more thrilled about it.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Gastropod
       message: By studying the shapes and sizes of these gastropods, scientists can
         take a journey back in time and make educated guesses about how old the rocks
         they call home really are. It's like unlocking the Earth's hidden time capsule,
         one gastropod at a time
+      spr: {fileID: 0}
       btnMessage: OK!
     claimed: 1
   - id: Brachiopod
@@ -78,6 +86,7 @@ MonoBehaviour:
         shells! These tiny sea-dwellers were the masters of their underwater domain
         millions of years ago. They might be gone, but their legacy lives on as fossils
         in rocks.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Brachiopod
       message: 'Now, here''s where the plot thickens! Brachiopod fossils are like
@@ -85,11 +94,13 @@ MonoBehaviour:
         the age of rocks. How do they do it? Well, it''s all about the size and shape.
         Imagine playing detective with rocks, but instead of a magnifying glass,
         you''re using Brachiopod fossils. '
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Brachiopod
       message: As scientists examine these ancient shells, they make educated guesses
         about how old the rocks they call home really are. It's like deciphering
         the Earth's secret code, one Brachiopod at a time!
+      spr: {fileID: 0}
       btnMessage: OK!
     claimed: 1
   - id: Crinoid
@@ -97,17 +108,20 @@ MonoBehaviour:
     - title: Crinoid
       message: Introducing the enchanting Crinoids, or as some like to call them,
         the "Sea Lilies" of yesteryears!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Crinoid(II)
       message: "These whimsical sea creatures, long gone but not forgotten, once
         danced beneath the waves. Today, their fossilized remnants resemble little
         star-shaped rock treasures. \r"
+      spr: {fileID: 0}
       btnMessage: OK!
     - title: Crinoid(II)
       message: "But here's where it gets exciting! Crinoid fossils are like time-traveling
         keys for geologists. They help unlock the age of rocks and whisper secrets
         about their ancient environments. It's like a journey back in time when scientists
         examine the crinoids within a rock layer\r"
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Crinoid(II)
       message: "By carefully studying the types of crinoids nestled in the rocks,
@@ -115,6 +129,7 @@ MonoBehaviour:
         They reveal not only the age of the rocks but also whether they were formed
         in shallow or deep waters. It's like reading nature's own history book, one
         crinoid at a time!\r"
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: T-rex
@@ -124,6 +139,7 @@ MonoBehaviour:
         the mighty king of the dinosaurs. T-Rex lived around 85 million years ago
         during the Age of Reptiles. Sadly, T-Rex and many other species became extinct
         due to a catastrophic event known as a mass extinction
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: T-rex
       message: Amazing discovery, island explorer! Behold, the fossil of a Tyrannosaurus
@@ -133,6 +149,7 @@ MonoBehaviour:
         forever altered this island's destiny, leaving only whispers of its prehistoric
         grandeur. Your find guides us through time, helping us uncover the island's
         lost secrets
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Archaopterys
@@ -144,6 +161,7 @@ MonoBehaviour:
         dinosaurs and birds, and it's been quite the inspiration for our feathery
         friends. Your discovery not only sheds light on Earth's prehistoric past
         but also reminds us of the wonders that once graced these island skies.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 0
   - id: Coelophysis
@@ -155,6 +173,7 @@ MonoBehaviour:
         was among the earliest of the island's inhabitants, sharing the sandy shores
         with the first true mammals. Your find brings us one step closer to understanding
         the vibrant history of these ancient island ecosystems.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Superposition
@@ -167,6 +186,7 @@ MonoBehaviour:
         flora on this island. So, as we explore, remember that this principle will
         help us unveil the island's history, one layer at a time. Let's set sail,
         island adventurer, and unearth the island's secrets!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 0
   - id: Fossil Discovery
@@ -177,6 +197,7 @@ MonoBehaviour:
         They're like underwater time capsules, holding secrets of the past. As you
         explore the depths, keep your eyes peeled for more fossil treasures. Who
         knows what incredible marine creatures you'll uncover!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Relative Age Dating
@@ -187,6 +208,7 @@ MonoBehaviour:
         examining their layers. Uncover the clues that reveal which rocks are older
         or younger in this thrilling geological adventure. Gear up for age-dating
         in the jungle, where every layer holds a piece of the ancient puzzle'
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Absolute Age Dating
@@ -197,6 +219,7 @@ MonoBehaviour:
         the birth certificates of the jungle's hidden history. Using scientific wizardry,
         we'll calculate ages spanning millions and even billions of years. Get ready
         to dive deep into the past!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: The Marvelous Fossils
@@ -206,6 +229,7 @@ MonoBehaviour:
         fossils emerges. These remarkable relics capture moments from ancient life
         in these diverse landscapes, unveiling stories of peculiar creatures and
         their past habitats.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Venturing Through Wild Terrain
@@ -217,6 +241,7 @@ MonoBehaviour:
         of rock formations within these diverse terrains. They guard the enigmatic
         tales of bygone eras and the captivating fossils that unveil the secrets
         of these natural worlds.
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Discovering Earth's Submerged Past
@@ -227,6 +252,7 @@ MonoBehaviour:
         of life in these diverse terrains, the rocks hold tales of the past. So,
         gear up, adventurers, and let's delve into the depths of time to unveil the
         secrets of our planet's incredible history!
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: The Wonders of Uniformitarianism
@@ -237,5 +263,6 @@ MonoBehaviour:
         episode of ''Planet Earth: The Ancient Chronicles.'' From erosion to sedimentation,
         and even the mighty dance of tectonic plates, these natural wonders have
         been sculpting our planet for ages.'
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     claimed: 1
