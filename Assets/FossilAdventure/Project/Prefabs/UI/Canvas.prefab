@@ -216,7 +216,7 @@ MonoBehaviour:
   dialoguePopUp: {fileID: 6253704743908922041}
   cataloguePopUp: {fileID: 8005368047152518260}
   helpPopUp: {fileID: 9199299163420934155}
-  dialogueData: {fileID: 11400000, guid: eb36919c36fb1884daf52d2dfbc5db09, type: 2}
+  dialogueData: {fileID: 11400000, guid: 94a21f9c885d7664bb7d3c8f51334ba1, type: 2}
 --- !u!1001 &3142256168235900541
 PrefabInstance:
   m_ObjectHideFlags: 0

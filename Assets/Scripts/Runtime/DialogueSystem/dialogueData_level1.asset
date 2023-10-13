@@ -21,7 +21,7 @@ MonoBehaviour:
         500 million years ago! But, it's been a while since we last spotted one of
         these in the neighborhood. Why are trilobites so special? Well, they're like
         the Sherlock Holmes of the rock world for geologists!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 54c10ba9aa0bf284b8ed3541d2a74331, type: 3}
       btnMessage: Hmm !
     - title: Trilobite(II)
       message: 'Imagine this: Geologists are like detectives, and trilobites are
@@ -30,7 +30,7 @@ MonoBehaviour:
         critters spill the beans about the age of the rocks they were crashin'' in,
         and they give us a sneak peek into the wild parties that were happenin''
         in those rocks way back when!'
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 54c10ba9aa0bf284b8ed3541d2a74331, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Ammonite
@@ -38,7 +38,7 @@ MonoBehaviour:
     - title: Ammonite
       message: 'Meet the Ammonite! These ocean explorers from over 65 million years
         ago were like the rock ''n'' roll snails of the sea! '
-      spr: {fileID: 0}
+      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
       btnMessage: OK!
     - title: Ammonite
       message: When you stumble upon an ammonite fossil, it's like discovering a
@@ -63,20 +63,20 @@ MonoBehaviour:
       message: Introducing the Gastropod!  These aquatic adventurers may look like
         snails, and that's because they're close relatives. They were the ocean's
         cool cats (well, snails!) a long, long time ago.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: f77d6d8d78adb22409d1f2aee58dfad2, type: 3}
       btnMessage: OK!
     - title: Gastropod
       message: Gastropods are like the timekeepers of the Earth's history, just like
         trilobites and ammonites! These tiny ocean dwellers hold the secrets to the
         age of rocks, and scientists couldn't be more thrilled about it.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: f77d6d8d78adb22409d1f2aee58dfad2, type: 3}
       btnMessage: OK!
     - title: Gastropod
       message: By studying the shapes and sizes of these gastropods, scientists can
         take a journey back in time and make educated guesses about how old the rocks
         they call home really are. It's like unlocking the Earth's hidden time capsule,
         one gastropod at a time
-      spr: {fileID: 0}
+      spr: {fileID: 21300000, guid: f77d6d8d78adb22409d1f2aee58dfad2, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Brachiopod
@@ -86,7 +86,7 @@ MonoBehaviour:
         shells! These tiny sea-dwellers were the masters of their underwater domain
         millions of years ago. They might be gone, but their legacy lives on as fossils
         in rocks.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 9134045398f9f2747b6c95f5ff4aabce, type: 3}
       btnMessage: OK!
     - title: Brachiopod
       message: 'Now, here''s where the plot thickens! Brachiopod fossils are like
@@ -94,13 +94,13 @@ MonoBehaviour:
         the age of rocks. How do they do it? Well, it''s all about the size and shape.
         Imagine playing detective with rocks, but instead of a magnifying glass,
         you''re using Brachiopod fossils. '
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 9134045398f9f2747b6c95f5ff4aabce, type: 3}
       btnMessage: OK!
     - title: Brachiopod
       message: As scientists examine these ancient shells, they make educated guesses
         about how old the rocks they call home really are. It's like deciphering
         the Earth's secret code, one Brachiopod at a time!
-      spr: {fileID: 0}
+      spr: {fileID: 21300000, guid: 9134045398f9f2747b6c95f5ff4aabce, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Crinoid
@@ -108,20 +108,20 @@ MonoBehaviour:
     - title: Crinoid
       message: Introducing the enchanting Crinoids, or as some like to call them,
         the "Sea Lilies" of yesteryears!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
       btnMessage: OK!
     - title: Crinoid(II)
       message: "These whimsical sea creatures, long gone but not forgotten, once
         danced beneath the waves. Today, their fossilized remnants resemble little
         star-shaped rock treasures. \r"
-      spr: {fileID: 0}
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
       btnMessage: OK!
     - title: Crinoid(II)
       message: "But here's where it gets exciting! Crinoid fossils are like time-traveling
         keys for geologists. They help unlock the age of rocks and whisper secrets
         about their ancient environments. It's like a journey back in time when scientists
         examine the crinoids within a rock layer\r"
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
       btnMessage: OK!
     - title: Crinoid(II)
       message: "By carefully studying the types of crinoids nestled in the rocks,
@@ -129,7 +129,7 @@ MonoBehaviour:
         They reveal not only the age of the rocks but also whether they were formed
         in shallow or deep waters. It's like reading nature's own history book, one
         crinoid at a time!\r"
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 24d2d7541fd6e3040a38ceb3a091f203, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: T-rex
@@ -139,7 +139,7 @@ MonoBehaviour:
         the mighty king of the dinosaurs. T-Rex lived around 85 million years ago
         during the Age of Reptiles. Sadly, T-Rex and many other species became extinct
         due to a catastrophic event known as a mass extinction
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: d19c81ccde4dd734f9fcc2f13b86bf84, type: 3}
       btnMessage: OK!
     - title: T-rex
       message: Amazing discovery, island explorer! Behold, the fossil of a Tyrannosaurus
@@ -149,7 +149,7 @@ MonoBehaviour:
         forever altered this island's destiny, leaving only whispers of its prehistoric
         grandeur. Your find guides us through time, helping us uncover the island's
         lost secrets
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: d19c81ccde4dd734f9fcc2f13b86bf84, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Archaopterys
@@ -161,9 +161,9 @@ MonoBehaviour:
         dinosaurs and birds, and it's been quite the inspiration for our feathery
         friends. Your discovery not only sheds light on Earth's prehistoric past
         but also reminds us of the wonders that once graced these island skies.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: 1417bb07c0345d948bbb2f540f2bcbfa, type: 3}
       btnMessage: OK!
-    claimed: 0
+    claimed: 1
   - id: Coelophysis
     messages:
     - title: Coelophysis
@@ -173,63 +173,61 @@ MonoBehaviour:
         was among the earliest of the island's inhabitants, sharing the sandy shores
         with the first true mammals. Your find brings us one step closer to understanding
         the vibrant history of these ancient island ecosystems.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 21300000, guid: e733e6db765a802458f900a6494bf907, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Superposition
     messages:
     - title: Superposition
-      message: Embark on an island adventure where the principle of superposition
-        becomes your guiding star! Just as the island's lush foliage grows layer
-        by layer, rock layers here follow a similar pattern. The principle of superposition
-        tells us that newer layers form on top of older ones, much like the vibrant
-        flora on this island. So, as we explore, remember that this principle will
-        help us unveil the island's history, one layer at a time. Let's set sail,
-        island adventurer, and unearth the island's secrets!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: The Law of Superposition states that, in a sequence of undisturbed
+        sedimentary rocks, each layer is younger than the one beneath it and older
+        than the one above it. This concept is similar to stacking books on a shelf,
+        with the oldest book at the bottom and the newest one on top.
+      spr: {fileID: 21300000, guid: a1de9954833cbff42bf6d4d6d213ec11, type: 3}
       btnMessage: OK!
     claimed: 0
   - id: Fossil Discovery
     messages:
     - title: Fossil Discovery
-      message: Wow, you've stumbled upon an amazing treasure underwater! These hidden
-        gems are fossils, the ancient remains or traces of once-living creatures.
-        They're like underwater time capsules, holding secrets of the past. As you
-        explore the depths, keep your eyes peeled for more fossil treasures. Who
-        knows what incredible marine creatures you'll uncover!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: The discovery of fossils is like stepping into a time machine, offering
+        us a glimpse into Earth's distant past. Fossils are the preserved remains
+        of ancient life, and each find carries the potential to rewrite the story
+        of our planet's history. In this text, we'll explore the excitement and significance
+        of fossil discovery.
+      spr: {fileID: 21300000, guid: 05c8902d3ad092b44a9fa3455d9b0b5c, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Relative Age Dating
     messages:
     - title: Relative Age Dating
-      message: 'Embark on a journey into the heart of the jungle as a detective of
-        the rainforest. Your mission: to decipher the age of jungle rocks by carefully
-        examining their layers. Uncover the clues that reveal which rocks are older
-        or younger in this thrilling geological adventure. Gear up for age-dating
-        in the jungle, where every layer holds a piece of the ancient puzzle'
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: Relative age dating helps scientists figure out which rocks and fossils
+        are older or younger. It's like a puzzle where we use clues, such as the
+        position of rocks and the types of fossils, to understand Earth's history.
+        The Law of Superposition tells us that the oldest rocks are usually at the
+        bottom, and the youngest are at the top. It's like reading a book about Earth's
+        past, one rock layer at a time!
+      spr: {fileID: 21300000, guid: d1bd45afb5818ed46b5a619e17e32f53, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Absolute Age Dating
     messages:
     - title: Absolute Age Dating
-      message: In this corner of the jungle, we're delving into the precise methods
-        that reveal the exact moments these rocks came into being. It's like uncovering
-        the birth certificates of the jungle's hidden history. Using scientific wizardry,
-        we'll calculate ages spanning millions and even billions of years. Get ready
-        to dive deep into the past!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: Absolute age dating is a way for scientists to find the exact age
+        of rocks, fossils, or other objects by using methods like radiometric dating.
+        It's like finding the birthdate of Earth's history. By measuring the amount
+        of certain elements in rocks, scientists can tell when they formed. It's
+        a bit like looking at a clock to know the precise time, helping us create
+        a detailed timeline of Earth's history in years.
+      spr: {fileID: 0}
       btnMessage: OK!
     claimed: 1
   - id: The Marvelous Fossils
     messages:
     - title: The Marvelous Fossils
-      message: Within towering mountains and lush jungles, a world of extraordinary
-        fossils emerges. These remarkable relics capture moments from ancient life
-        in these diverse landscapes, unveiling stories of peculiar creatures and
-        their past habitats.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: Fossils are the preserved remains or traces of plants and animals
+        that lived long ago. They come in various forms, from the skeletons of dinosaurs
+        to the imprints of ancient leaves, and they can be found all around the world.
+      spr: {fileID: 21300000, guid: 3947d25f234011343a547b407ba22fcb, type: 3}
       btnMessage: OK!
     claimed: 1
   - id: Venturing Through Wild Terrain
@@ -241,7 +239,7 @@ MonoBehaviour:
         of rock formations within these diverse terrains. They guard the enigmatic
         tales of bygone eras and the captivating fossils that unveil the secrets
         of these natural worlds.
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 0}
       btnMessage: OK!
     claimed: 1
   - id: Discovering Earth's Submerged Past
@@ -252,17 +250,34 @@ MonoBehaviour:
         of life in these diverse terrains, the rocks hold tales of the past. So,
         gear up, adventurers, and let's delve into the depths of time to unveil the
         secrets of our planet's incredible history!
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      spr: {fileID: 0}
       btnMessage: OK!
     claimed: 1
   - id: The Wonders of Uniformitarianism
     messages:
     - title: The Wonders of Uniformitarianism
-      message: 'Did you know that the forces shaping these incredible landscapes
-        have been at work throughout Earth''s history? It''s like watching the ultimate
-        episode of ''Planet Earth: The Ancient Chronicles.'' From erosion to sedimentation,
-        and even the mighty dance of tectonic plates, these natural wonders have
-        been sculpting our planet for ages.'
-      spr: {fileID: 21300000, guid: 6c43a990df2de1a4f9e8556c2d00f054, type: 3}
+      message: Uniformitarianism is the idea that the same physical, chemical, and
+        biological processes that we observe today have operated in the same manner
+        throughout Earth's history. It's often summarized as "the present is the
+        key to the past." In other words, by studying current geological processes,
+        we can make educated guesses about the past.
+      spr: {fileID: 0}
+      btnMessage: OK!
+    claimed: 1
+  - id: Stratigraphy
+    messages:
+    - title: Stratigraphy
+      message: Stratigraphy is like reading Earth's history in its layers of rock
+        and sediment. It's a fascinating blend of art and science that helps us uncover
+        the secrets of our planet's past. In this text, we'll delve into the world
+        of stratigraphy and how it provides valuable insights into Earth's history.
+      spr: {fileID: 21300000, guid: d5b4d33d434e8b54fb653938ba385856, type: 3}
+      btnMessage: OK!
+    - title: 'What is Stratigraphy?  '
+      message: Stratigraphy is the study of rock layers, or "strata," and how they
+        are arranged in the Earth's crust. By examining the position, composition,
+        and characteristics of these layers, geologists can uncover a timeline of
+        events and learn about the environments and life that existed in the past.
+      spr: {fileID: 21300000, guid: d5b4d33d434e8b54fb653938ba385856, type: 3}
       btnMessage: OK!
     claimed: 1
