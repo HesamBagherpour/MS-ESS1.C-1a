@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2637775, g: 0.5643249, b: 0.55873287, a: 1}
+  m_IndirectSpecularColor: {r: 0.2637383, g: 0.56429034, b: 0.55876815, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -798,7 +798,7 @@ MonoBehaviour:
   LevelTime: 600
   portal: {fileID: 6305171175850070587, guid: ed1b024cfbefd1d4db8ad93cd4238445, type: 3}
   player: {fileID: 0}
-  fossilCount: 4
+  fossilCount: 7
 --- !u!4 &877450592
 Transform:
   m_ObjectHideFlags: 0

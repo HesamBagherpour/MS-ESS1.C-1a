@@ -24,6 +24,7 @@ public class Loader : MonoBehaviour
     // Most games are expecting 2 types of data, Start and Language.
     LoLDataType _expectedData = LoLDataType.START | LoLDataType.LANGUAGE;
 
+    public Dictionary<string, string> dataDictionary = new Dictionary<string, string>();
     [System.Flags]
     enum LoLDataType
     {
@@ -43,7 +44,7 @@ public class Loader : MonoBehaviour
 #endif
 
         // Initialize the object, passing in the WebGL
-        LOLSDK.Init(webGL, "com.legends-of-learning.unity.sdk.v5.4.example-game");
+        LOLSDK.Init(webGL, "com.Emaj.Fossil_Adventure");
 
         // Register event handlers
         LOLSDK.Instance.StartGameReceived += new StartGameReceivedHandler(HandleStartGame);
@@ -56,6 +57,7 @@ public class Loader : MonoBehaviour
 		LoadMockData();
 #endif
 
+	    
         // Then, tell the platform the game is ready.
         LOLSDK.Instance.GameIsReady();
         // Wait for your data to be sent from the platform before continuing to your game.
@@ -79,11 +81,22 @@ public class Loader : MonoBehaviour
     void HandleLanguageDefs (string json)
     {
         JSONNode langDefs = JSON.Parse(json);
-
+    
         // Example of accessing language strings
         // Debug.Log(langDefs);
         // Debug.Log(langDefs["welcome"]);
+        
+        foreach (var kvp in langDefs.AsObject)
+        {
+	        string key = kvp.Key;
+	        string value = kvp.Value;
 
+	        // Add the key-value pair to the dataDictionary
+	        dataDictionary.Add(key, value);
+        }
+
+
+        
         SharedState.LanguageDefs = langDefs;
         _receivedData |= LoLDataType.LANGUAGE;
     }

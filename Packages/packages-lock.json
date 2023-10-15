@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.amirardoudi.birdtools": {
+      "version": "https://github.com/AmirArdroudi/birdtools.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e4615fd2dd77a76e3630fdd5cf8d4ab59eb313dc"
+    },
     "com.unity.burst": {
       "version": "1.8.8",
       "depth": 1,

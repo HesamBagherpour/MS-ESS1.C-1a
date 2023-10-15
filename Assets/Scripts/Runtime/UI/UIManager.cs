@@ -1,6 +1,7 @@
 using System;
 using Emaj.Fossil.UI;
 using Runtime.DialogueSystem;
+using Runtime.Manager;
 using Runtime.Singleton;
 using UnityEngine;
 
@@ -29,6 +30,12 @@ namespace Runtime.UI
                 return;
             }
 
+            foreach (var dialogueMessage in dialogue.messages)
+            {
+                dialogueMessage.message = GameManager.Instance.loader.dataDictionary[dialogueMessage.title];
+            }
+            
+            
             dialoguePopUp.Show(dialogue, () => { endAction?.Invoke(); });
         }
     }

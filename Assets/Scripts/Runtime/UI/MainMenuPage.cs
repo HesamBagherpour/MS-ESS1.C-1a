@@ -1,4 +1,5 @@
-using System;
+    using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using LoLSDK;
 using Runtime.Manager;
@@ -13,8 +14,11 @@ namespace Runtime.UI
         [SerializeField] private Button startBtn;
         [SerializeField] private Button continueBtn;
         [SerializeField] private CharacterManagerUI characterManager;
-
+        [SerializeField] private Text newGame;
+        [SerializeField] private Text Continue;
         private Sequence tweener;
+        
+        public List<string> keyData;
 
         public override void Awake()
         {
@@ -26,21 +30,25 @@ namespace Runtime.UI
 
         private void Start()
         {
+            
             Helper.StateButtonInitialize<PlayerState>(startBtn, continueBtn, OnLoad);
-
             characterManager.Initialize();
+            // Access items in the data dictionary
+            newGame.text = GameManager.Instance.loader.dataDictionary[keyData[0]];
+            Continue.text = GameManager.Instance.loader.dataDictionary[keyData[1]];
         }
 
+        
         private void OnLoad(PlayerState loadedPlayerState)
         {
             if (loadedPlayerState == null)
             {
                 Debug.Log("no data is loaded!");
+                continueBtn.gameObject.SetActive(false);
+                continueBtn.onClick.RemoveAllListeners();
                 return;
             }
-
-            continueBtn.onClick.RemoveAllListeners();
-            continueBtn.onClick.AddListener(() => { LoadSceneByName(loadedPlayerState.lastSceneName); });
+            LoadSceneByName(loadedPlayerState.lastSceneName);
         }
 
         private void StartGame()
@@ -59,7 +67,6 @@ namespace Runtime.UI
         public override void Show(Action doneAction = null)
         {
             base.Show(doneAction);
-
             AudioManager.Instance.PlayMusic(AudioManager.Instance.Music.menu);
             Animate();
         }
@@ -67,7 +74,6 @@ namespace Runtime.UI
         public void Animate()
         {
             var seq = DOTween.Sequence();
-            //seq.Append(startBtn.transform.DOLocalRotate(transform.forward * -30, 1).SetLoops(-1, LoopType.Yoyo));
             seq.Append(startBtn.transform.DOScale(1.1f, 1f).SetLoops(-1, LoopType.Yoyo));
             seq.Join(continueBtn.transform.DOScale(1.1f, 1f).SetLoops(-1, LoopType.Yoyo));
 

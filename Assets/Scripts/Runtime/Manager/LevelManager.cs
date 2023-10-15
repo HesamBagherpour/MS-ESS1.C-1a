@@ -1,3 +1,4 @@
+using LoLSDK;
 using Runtime.LevelGenerate;
 using Runtime.Singleton;
 using Runtime.UI;
@@ -34,23 +35,20 @@ namespace Runtime.Manager
         {
             levelNumebr--;
             if (levelNumebr != 0) return;
-
-
             GameObject gameObject = Instantiate(portal, player.transform.position + player.transform.forward * 3,
                 Quaternion.identity);
 
             float angle = Vector3.Angle(player.transform.position, gameObject.transform.position);
-
             gameObject.transform.localScale = new Vector3(3, 0, 3);
             gameObject.transform.rotation = Quaternion.Euler(90, angle, 0);
-
-            Debug.Log("levelNumebr : " + levelNumebr);
         }
 
         public void GetFossil()
         {
-            fossilCounter++;
-
+            fossilCounter++; 
+            GameManager.Instance.playerState.maxProgress = fossilCounter;
+            //GameManager.Instance.Save();
+            LOLSDK.Instance.SaveState(GameManager.Instance.playerState);
             UIManager.Instance.hudPage.GetFossil(fossilCounter);
         }
     }
